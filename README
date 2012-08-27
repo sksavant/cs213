@@ -1,0 +1,21 @@
+This programming assignment is to implement an abstract data type.
+You can choose any data type that you are interested in, choose an 
+appropriate representation for it, and define and implement some 
+operations on the data. Some examples of data types are given below, 
+but you are free to choose your own.
+
+The main purpose of the exercise is to illustrate the idea of an 
+abstract data type, such that a user can manipulate variables of 
+that type, without knowing the implementation of the type. Your 
+implementation does not have to be very efficient, nor does it have 
+to support a large number of operations. You should define 
+sufficiently many operations so that the type can be used effectively.
+
+Some suggested data types: (But you can choose your own!)
+
+1. Arbitrary precision integers.  2. Rational numbers  
+3. Arbitrarily specified precision real numbers.
+4. Single or multivariable polynomials 5. Matrices and vectors 
+6. Boolean functions 7. Polygons and other geometrical objects. 
+8. A RLC Electrical circuit. 9. A Boolean circuit. 
+10. A dictionary, that is, a set of character strings.
