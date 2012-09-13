@@ -1,0 +1,16 @@
+Stacking disks problem:
+
+Efficiency of algorithms (Time and Space Complexity):
+
+Efficiency of Data Structures: (Revisiting stacking plates problem)
+
+Vector, List, Linked lists:
+
+Union-find data structure:
+
+Algorithms for Lists:
+Pattern Matching:
+KMP Algorithm (Knuth-Morris-Pratt) Algo:
+Longest common sub-sequence
+Decoding Problem:
+
