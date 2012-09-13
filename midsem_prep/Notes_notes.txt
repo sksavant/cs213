@@ -1,16 +1,42 @@
-Stacking disks problem:
+##Stacking disks problem:
 
-Efficiency of algorithms (Time and Space Complexity):
+##Efficiency of algorithms (Time and Space Complexity):
 
-Efficiency of Data Structures: (Revisiting stacking plates problem)
+##Efficiency of Data Structures: (Revisiting stacking plates problem)
 
-Vector, List, Linked lists:
+##Vector, List, Linked lists:
+Abstract data type 'List' of type T is a sequence of elements of type T
+Some implementations in C++ : vector, list
+Operations on list : Merge/Split, Reverse, Sort (need to know the ordering on the type of elements)
+*Vector:
+Internal reperesentation is an array, which is dynamically alloted.
+class vector{
+	T* a;
+};
+Operations/Functions:
+push_back(x): Adds an element to the end of the list
+	If there is no more space, the array size is increased by 2*current_size
+	In this process a new memory is allocated and previous elements are copied over
+	(^Happens at runtime, So?)
+pop_back(): Removes/deletes the last element of the list. Size is not changed.
+size(): size of vector == no. of elements
+capcity(): max size of array
+insert(it,x): iterator to the position where insert should happen and the element of type T (x) to be inserted. push_front() is O(n): need to shift the next elements one position right.
+*List (Linked lists):
+Store elements anywhere with two pointers for each eleement: one to previous element and other to the next element.
+#include<list>
+#list<int> l;
+push_front() is as easy as push_back()
+struct node {
+	T value;
+	node *next,*prev;
+}
+ 
+##Union-find data structure:
 
-Union-find data structure:
-
-Algorithms for Lists:
-Pattern Matching:
-KMP Algorithm (Knuth-Morris-Pratt) Algo:
-Longest common sub-sequence
-Decoding Problem:
+##Algorithms for Lists:
+##Pattern Matching:
+##KMP Algorithm (Knuth-Morris-Pratt) Algo:
+##Longest common sub-sequence
+##Decoding Problem:
 
